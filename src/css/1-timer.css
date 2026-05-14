@@ -9,6 +9,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .timer {
     display: flex;
     gap: 20px;

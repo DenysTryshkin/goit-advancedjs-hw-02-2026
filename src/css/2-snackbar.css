@@ -8,3 +8,63 @@ body {
     gap: 20px;
     font-family: Arial, sans-serif;
 }
+
+a {
+    text-decoration: none;
+}
+
+.form {
+    width: 360px;
+}
+
+.form>label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    letter-spacing: 0.04em;
+}
+
+.form input[type='number'] {
+    border: 1px solid rgba(128, 128, 128, 1);
+    border-radius: 4px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 8px 16px;
+    outline: none;
+}
+
+.form input[type='number']:hover,
+.form fieldset:hover {
+    border-color: rgba(0, 0, 0, 1);
+}
+
+.form input[type='number']:focus {
+    border-color: rgba(78, 117, 255, 1);
+}
+
+.form fieldset {
+    border: 1px solid rgba(128, 128, 128, 1);
+    border-radius: 4px;
+    padding: 16px;
+}
+
+input[type='radio'] {
+    accent-color: rgba(78, 117, 255, 1);
+}
+
+.form button {
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(78, 117, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 8px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: rgba(108, 140, 255, 1);
+}
