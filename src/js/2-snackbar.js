@@ -30,7 +30,7 @@ form.addEventListener("submit", (event) => {
     .catch((error) => {
       iziToast.error({
         message: `❌ Rejected promise in ${error}ms`,
-        position: "topRight",
+        position: "topCenter",
         icon: "",
       });
     });
